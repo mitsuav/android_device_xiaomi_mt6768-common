@@ -29,6 +29,7 @@ PRODUCT_PACKAGES += \
     audio.usb.default
 
 PRODUCT_PACKAGES += \
+    libunwindstack.vendor \
     libtinycompress \
     libtinyxml \
     tinymix
@@ -86,6 +87,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libutils-v32
 
+PRODUCT_PACKAGES += \
+    libcamera_metadata.vendor \
+    libexif.vendor \
+    libpng.vendor
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend
@@ -129,6 +135,9 @@ PRODUCT_PACKAGES += \
     libdrm \
     libdrm.vendor
 
+PRODUCT_PACKAGES += \
+    libutilscallstack.vendor
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
@@ -159,6 +168,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss.measurement_corrections@1.0.vendor \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
     android.hardware.gnss.visibility_control@1.0.vendor
+
+PRODUCT_PACKAGES += \
+    libcurl.vendor \
+    libexpat.vendor
 
 # Health
 PRODUCT_PACKAGES += \
