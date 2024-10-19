@@ -17,5 +17,5 @@
         - timerfd: exists, appears unused in userspace, but the only thing we can programatically
                    detect at build time (using device kernel headers), so this is preffered.
     -->
-    <string name="config_powerOffAlarmDrivers" translatable="false">rtc,alarm,timerfd</string>
+    <string name="config_powerOffAlarmDrivers" translatable="false">alarm,rtc,timerfd</string>
 </resources>

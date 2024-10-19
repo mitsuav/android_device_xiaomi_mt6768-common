@@ -13,6 +13,8 @@ Build.BRAND=MTK
 ro.camera.sound.forced=0
 persist.camera.dualcal.state=-1
 ro.mtk_cam_stereo_camera_support=1
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram,us.zoom.videomeetings
+vendor.camera.aux.packagelist=org.lineageos.aperture,org.lineageos.aperture.dev,co.aospa.sense
 
 # Charger
 ro.charger.enable_suspend=true
@@ -27,10 +29,8 @@ debug.als.logs=1
 config.svi.xml=1
 config.svi.xml.print=1
 
-# Filesystem
-fs_mgr.overlayfs.prefer_cache_backing_storage=true
-
 # FM Radio
+persist.sys.radio.force_lte_ca=true
 persist.internalAntenna.enable=true
 
 # GPU
@@ -80,8 +80,3 @@ ro.mediatek.wlan.p2p=1
 mediatek.wlan.ctia=0
 wifi.tethering.interface=ap0
 wifi.direct.interface=p2p0
-
-# ZRAM
-ro.zram.mark_idle_delay_mins=60
-ro.zram.first_wb_delay_mins=1440
-ro.zram.periodic_wb_delay_hours=24
