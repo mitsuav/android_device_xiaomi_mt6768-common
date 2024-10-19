@@ -1,0 +1,2 @@
+#============= extra_free_kbytes ==============
+allow extra_free_kbytes extra_free_kbytes:capability sys_admin;

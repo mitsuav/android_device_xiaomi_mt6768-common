@@ -1,0 +1,2 @@
+#============= volte_imcb ==============
+allow volte_imcb volte_imcb:capability sys_admin;

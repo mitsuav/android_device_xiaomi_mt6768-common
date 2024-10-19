@@ -1,0 +1,2 @@
+#============= thermal_manager ==============
+allow thermal_manager thermal_manager:capability sys_admin;

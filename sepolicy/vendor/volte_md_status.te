@@ -1,0 +1,2 @@
+#============= volte_md_status ==============
+allow volte_md_status volte_md_status:capability sys_admin;

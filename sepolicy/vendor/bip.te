@@ -1,0 +1,3 @@
+#============= bip ==============
+allow bip bip:capability sys_admin;
+get_prop(bip, net_dns_prop)

@@ -1,0 +1,2 @@
+#============= mnld ==============
+get_prop(mnld, default_prop)

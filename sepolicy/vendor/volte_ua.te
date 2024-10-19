@@ -1,0 +1,2 @@
+#============= volte_ua ==============
+allow volte_ua volte_ua:capability sys_admin;

@@ -8,3 +8,9 @@ allow vendor_init vendor_fingerprint_data_file:dir { rw_dir_perms relabelto seta
 allow vendor_init nfc_data_vendor_file:dir { r_dir_perms create_dir_perms };
 
 allow vendor_init proc_sched_stune:file w_file_perms;
+allow vendor_init shell_data_file:dir setattr;
+allow vendor_init system_data_file:dir write;
+allow vendor_init vendor_userdir_file:dir write;
+get_prop(vendor_init, default_prop)
+set_prop(vendor_init, vendor_mtk_telephony_addon_prop)
+set_prop(vendor_init, vendor_mtk_vendor_vt_prop)
