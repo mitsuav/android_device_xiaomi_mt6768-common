@@ -5,5 +5,3 @@ allow mtk_hal_camera persist_camera_data_file:file create_file_perms;
 
 set_prop(mtk_hal_camera, system_camera_prop)
 get_prop(mtk_hal_camera, system_camera_prop)
-get_prop(mtk_hal_camera, default_prop)
-set_prop(mtk_hal_camera, default_prop)

@@ -1,2 +1,0 @@
-#============= epdg_wod ==============
-allow epdg_wod epdg_wod:capability sys_admin;

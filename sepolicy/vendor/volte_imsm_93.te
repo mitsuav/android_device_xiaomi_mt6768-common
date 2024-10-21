@@ -1,2 +1,0 @@
-#============= volte_imsm_93 ==============
-allow volte_imsm_93 volte_imsm_93:capability sys_admin;

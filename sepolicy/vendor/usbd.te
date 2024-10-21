@@ -1,2 +1,0 @@
-#============= usbd ==============
-allow usbd usbd:capability sys_admin;

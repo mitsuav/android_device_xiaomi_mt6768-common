@@ -1,3 +1,0 @@
-#============= mmc_ffu ==============
-allow mmc_ffu mmc_ffu:capability sys_admin;
-allow mmc_ffu block_device:dir search;

@@ -1,2 +1,0 @@
-#============= ccci_fsd ==============
-allow ccci_fsd proc_version:file read;

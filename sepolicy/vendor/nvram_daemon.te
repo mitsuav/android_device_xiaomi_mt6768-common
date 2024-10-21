@@ -1,2 +1,0 @@
-#============= nvram_daemon ==============
-allow nvram_daemon nvram_daemon:capability sys_admin;

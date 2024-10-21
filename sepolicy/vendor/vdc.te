@@ -1,2 +1,0 @@
-#============= vdc ==============
-allow vdc vdc:capability sys_admin;
