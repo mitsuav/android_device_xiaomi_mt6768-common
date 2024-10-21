@@ -19,7 +19,7 @@
         <!-- disable TV and telephony domains by default. These must be opted in by OEMs -->
         <Domain name="telephony" enabled="false" />
         <Domain name="tv" enabled="false" />
-        </Settings>
+    </Settings>
     <Decoders>
         <MediaCodec name="c2.mtk.adpcm-ms.decoder" type="audio/x-adpcm-ms">
             <Alias name="OMX.MTK.AUDIO.DECODER.ADPCM.MS" />
