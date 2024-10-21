@@ -1,2 +1,0 @@
-#============= audioserver ==============
-get_prop(audioserver, vendor_default_prop)

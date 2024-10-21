@@ -1,2 +1,0 @@
-#============= vtservice ==============
-get_prop(vtservice, vendor_default_prop)

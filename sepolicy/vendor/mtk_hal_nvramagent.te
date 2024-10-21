@@ -1,2 +1,0 @@
-#============= mtk_hal_nvramagent ==============
-allow mtk_hal_nvramagent mtk_hal_nvramagent:capability sys_admin;

@@ -1,3 +1,0 @@
-#============= fsck ==============
-allow fsck fsck:capability sys_admin;
-allow fsck sysfs_devices_block:dir search;

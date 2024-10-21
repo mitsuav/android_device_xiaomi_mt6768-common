@@ -1,2 +1,0 @@
-#============= power_off_alarm ==============
-get_prop(power_off_alarm, default_prop)

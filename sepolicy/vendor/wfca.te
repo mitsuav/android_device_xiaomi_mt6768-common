@@ -1,2 +1,0 @@
-#============= wfca ==============
-allow wfca wfca:capability sys_admin;
