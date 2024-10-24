@@ -253,3 +253,6 @@ ro.vendor.connsys.dedicated.log=1
 
 # Zygote
 zygote.critical_window.minute=10
+
+# ConsumerIr
+ro.hardware.consumerir=common
